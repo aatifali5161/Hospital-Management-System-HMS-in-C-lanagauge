@@ -271,7 +271,7 @@ void deletePatient() {
     printf("\nEnter Patient ID to delete: ");
     scanf("%d", &id);
 
-    for (int i = 0; i < pCount; i++) {
+    for (int i = 0; i < pCount; i++) { 
         if (patients[i].id == id) {
 
             // shift all records left
